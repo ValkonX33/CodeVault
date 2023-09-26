@@ -24,7 +24,7 @@ const Footer = () => (
                 <Image src="/codevault-logo-footer.png" width={116} height={38} alt="logo" />
 
                 <p className="text-start text-sm font-normal mt-5 max-w-xs">
-                  CodeVault is the world&apos;s leading community for creatives to share, grow, and get hired.
+                  CodeVault is the world&apos;s leading community for creatives to share, grow,learn and get hired.
                 </p>
             </div>
             <div className="flex flex-wrap gap-12">
