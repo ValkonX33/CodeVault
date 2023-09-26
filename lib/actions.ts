@@ -45,7 +45,7 @@ export const fetchAllProjects = (category?: string | null, endcursor?: string | 
   client.setHeader("x-api-key", apiKey);
       const validCategory = category ?? '';
 
-  return makeGraphQLRequest(projectsQuery, { category, endcursor });
+  return makeGraphQLRequest(projectsQuery, { category:validCategory, endcursor });
 };
 
 export const createNewProject = async (form: ProjectForm, creatorId: string, token: string) => {
