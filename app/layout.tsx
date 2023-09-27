@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
 export const metadata = {
-  title: "Flexibble",
+  title: "CodeVault",
   description: "Showcase and discover remarkable developer projects",
 };
 
